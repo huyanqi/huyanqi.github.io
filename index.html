@@ -1,0 +1,11 @@
+---
+layout: default
+title: Blogging Like a Hacker
+---
+
+<h1>目录</h1>
+<ul class="nav sidenav">
+  {% for post in site.posts %}
+    <li><a href="{{post.url}}">{{ post.title }} - {{post.categories}} - {{post.tags}}</a></li>
+  {% endfor %}
+</ul>

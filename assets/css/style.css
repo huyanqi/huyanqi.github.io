@@ -1,0 +1,32 @@
+body {
+    background: #f5f5f5;
+    color: #666;
+    font-family: "Microsoft Yahei",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.article_border {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.article_header{
+  border-bottom: solid 1px #e3e3e3;
+  padding-bottom: 20px;
+}
+
+.article_title {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.article_tag {
+    font-size: 13px;
+    color: #999;
+    margin-right: 10px;
+    display: inline-block;
+}

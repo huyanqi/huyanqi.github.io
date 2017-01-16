@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <title>{{ page.title }}</title>
+	<body>
+    {% include header.html %}
+    this is post header
+		<main class="article_border">
+      <div class="article_header">
+        <h1 class="article_title">{{page.title}}</h1>
+        <font class="article_tag">{{page.date | date_to_string }}</font>
+      </div>
+			{{ content }}
+		</main>
+    {% include footer.html %}
+	</body>
+</html>
